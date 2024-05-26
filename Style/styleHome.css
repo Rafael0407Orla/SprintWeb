@@ -1,5 +1,6 @@
+
 section:nth-child(1) {
-    background: url('/SprintWeb/Assets/Section1BG.png') no-repeat;
+    background: url('/Assets/Section1BG.png') no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -21,7 +22,7 @@ section:nth-child(2) {
     align-items: flex-end;
     padding: 0 80px;
     position: relative;
-    background: url('/SprintWeb/Assets/Section2BG.png') no-repeat;
+    background: url('/Assets/Section2BG.png') no-repeat;
     background-size: cover;
     background-position: center;
 }
