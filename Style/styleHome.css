@@ -10,7 +10,7 @@ section:nth-of-type(1) {
     padding-left: 120px;
 }
 
-section:nth-of-type(1) h1 {
+section:nth-of-type(1) strong {
     font-size: 90px;
     z-index: 999999999999;
     color: #F7EA3D;
@@ -19,6 +19,14 @@ section:nth-of-type(1) h1 {
 
 }
 
+section:nth-of-type(1) h1 {
+    font-size: 90px;
+    z-index: 999999999999;
+    color: #29F2F2;
+    text-align: center;
+    text-shadow: 0 0 40px #29F2F2;
+
+}
 
 section:nth-of-type(1) img {
     position: absolute;
