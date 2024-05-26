@@ -3,8 +3,8 @@ function Login() {
     const usuario = document.getElementById('usuario_input').value;
 
     if (senha == "12345") {
-        welcomeMsn(usuario)
         alert('Acesso liberado')
+        welcomeMsn(usuario)
         setTimeout(navigate, 2500)
     } else {
         alert('Senha incorreta')
@@ -16,7 +16,7 @@ function navigate() {
 }
 
 function welcomeMsn(usuario) {
-    document.querySelector('#welcomeText').textContent = `Bem vindo "${usuario}"`;
+    document.querySelector('#welcomeText').textContent = `Bem vindo(a) "${usuario}"`;
     document.querySelector('.container').classList.add('hidden');
 }
 

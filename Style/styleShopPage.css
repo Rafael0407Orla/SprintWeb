@@ -25,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url("/Assets/background_shop.png");
+    background-image: url("../Assets/background_shop.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
