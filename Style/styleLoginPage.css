@@ -20,7 +20,9 @@ body {
     background-position: center;
 }
 
-
+h1{
+    color: #fff;
+}
 
 .container {
     width: 420px;
@@ -68,6 +70,8 @@ nav ul a:hover {
 
 
 
+
+
 ::placeholder {
     color: #ffffff;
 
@@ -89,6 +93,11 @@ nav ul a:hover {
     margin: -15 0 15px;
 
 
+}
+
+.hidden {
+    display: none;
+    pointer-events: none;
 }
 
 
