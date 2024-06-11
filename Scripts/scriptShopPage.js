@@ -34,3 +34,7 @@ function updateCarousel() {
     const width = carousel.clientWidth;
     carousel.style.transform = `translateX(-${currentIndex * width}px)`;
 }
+
+function comprar(){
+    alert("Compra realizada com sucesso!");
+}
