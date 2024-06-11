@@ -15,7 +15,7 @@ body {
     align-items: center;
     min-height: 100vh;
     background: seagreen;
-    background: url('/SprintWeb/Assets/LoginBG.png') no-repeat;
+    background: url(../Assets/LoginBG.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
