@@ -1,13 +1,23 @@
-function Login() {
-    const senha = document.getElementById('senha_input').value;
-    const usuario = document.getElementById('usuario_input').value;
+document.getElementById('loginForm').addEventListener('submit', function (event) {
+    event.preventDefault();
+    Login();
+});
 
-    if (senha == "12345") {
-        alert('Acesso liberado')
-        welcomeMsn(usuario)
-        setTimeout(navigate, 2500)
+function Login() {
+    const usuario = document.getElementById('usuario_input').value;
+    const senha = document.getElementById('senha_input').value;
+    const usuarioCadastrado = 'mahindra';
+    const senhaCadastrada = '12345';
+
+    if (usuario === usuarioCadastrado && senha === senhaCadastrada) {
+        alert('Acesso liberado');
+        welcomeMsn(usuario);
+        setTimeout(navigate, 2500);
     } else {
-        alert('Senha incorreta')
+        alert('Usuário ou senha inválidos');
+        document.getElementById('usuario_input').value = '';
+        document.getElementById('senha_input').value = '';
+        document.getElementById('usuario_input').focus();
     }
 }
 
